@@ -1,0 +1,136 @@
+
+/* ############# START APPLY TO ALL CSS ################# */
+body {
+  background-image: url("background.png");
+  margin-top: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: fantasy;
+  color: white !important;
+  
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  text-shadow: 1px 1px 15px black;
+  color:white;
+}
+h3 {
+  font-family: 'Bangers', cursive;
+  color:white;
+}
+h2 {
+  font-family: 'Bangers', cursive;
+}
+
+h5{
+  font-family: Roboto !important;
+  color: black !important;
+
+
+}
+
+h6{
+  f
+  color: black!important;
+  font-style: bold;
+}
+
+footer{
+  color: gray;
+}
+
+.jumbotron{
+  text-align: center;
+  color: #fee0ff;
+  background: rgba(255, 255, 255, 0.3); 
+    width:60%;
+  margin: auto;
+  border-radius: 20px ;
+  box-shadow: 1px 1px 12px 10px black;
+
+}
+
+/* ############# END APPLY TO ALL CSS################# */
+
+
+/* ############ Start Nav ###############  */
+.header_area{
+  padding-right: 40px;
+  padding-left: 140px;
+  padding-bottom: 20px;
+  text-align: right;
+  list-style-type: none;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 19px;
+  color: #fee0ff;
+  padding: 5px 24px;
+  text-shadow: 2px 1px 15px white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-shadow: 1px 1px 20px black !important;
+  box-shadow: 1px 1px 12px 10px black;
+}
+#my_pic2:hover{
+  box-shadow: 1px 1px 12px 10px black;
+  
+}
+/*############ End Nav ############### */
+
+.card-header,
+.card-body{
+  font-family: Roboto !important;
+  color: black !important;
+}
+
+ul{
+  font-family: Roboto !important;
+  color: black !important;
+  list-style-position: inside;
+  padding-left: 0;
+  list-style-position: outside;     padding-left: 1em;
+  text-align: left;
+}
+
+/* basic positioning */
+.legend { list-style: none; }
+.legend li { float: left; margin-right: 10px; }
+.legend span { border: 1px solid #ccc; float: left; width: 12px; height: 12px; margin: 2px; }
+/* your colors */
+.legend .superawesome { background-color: green; }
+.legend .awesome { background-color: yellow; }
+.legend .kindaawesome { background-color: red; }
+.legend{
+  
+}
+.card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        box-shadow: 1px 1px 12px 10px white;
+}
+
+
+
+.legend3{
+  margin-left: 22%;      
+  margin-right: 18%;
+  width: auto;
+}

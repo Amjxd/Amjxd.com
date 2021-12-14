@@ -1,0 +1,198 @@
+/* ############# START APPLY TO ALL CSS ################# */
+body {
+  background-image: url("background.png");
+  margin-top: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  font-family: fantasy;
+  color: white !important;
+  
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  text-shadow: 1px 1px 15px black;
+  color:white;
+}
+h3 {
+  font-family: 'Bangers', cursive;
+  color:white;
+}
+h2 {
+  font-family: 'Bangers', cursive;
+}
+
+h6{
+  font-family: 'Bangers', cursive;  
+}
+
+footer{
+  color: gray;
+}
+
+.jumbotron{
+  color: #fee0ff;
+  background: #858b97;
+  background: rgba(255, 255, 255, 0.3); 
+    width:60%;
+  margin: auto;
+  border-radius: 20px ;
+  box-shadow: 1px 1px 12px 10px black;
+
+}
+
+/* ############# END APPLY TO ALL CSS################# */
+
+/* ############ Start Nav ###############  */
+.header_area{
+  padding-right: 40px;
+  padding-left: 140px;
+  text-align: right;
+  list-style-type: none;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 19px !important;
+  color: #fee0ff;
+  padding: 5px 24px;
+  text-shadow: 2px 1px 15px white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-shadow: 1px 1px 20px black !important;
+  box-shadow: 1px 1px 12px 10px black;
+}
+#my_pic2:hover{
+  box-shadow: 1px 1px 12px 10px black;
+  
+}
+/*############ End Nav ############### */
+
+/* START BUTTON CSS */
+button {
+  font-family: 'Bangers',cursive;
+  color: #fee0ff !important;
+  box-shadow: 1px 1px 15px #fee0ff;
+  
+}
+
+.btn{
+  font-size: 20px;
+}
+
+button:hover{
+
+  background-color: black !important;
+
+  box-shadow: 1px 1px 12px 6px white;
+}
+  /* END BUTTON CSS */
+  
+
+.form-group{
+  font-family: 'Bangers', cursive;
+  color: #fee0ff !important;
+}
+input {
+  font-family: Arial;
+  
+}
+
+
+
+.form-group{
+  text-align: left;
+}
+section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .container {
+  color: white;
+  background: rgba(133, 139, 151, 0.64); 
+  width:50%;
+  margin: auto;
+  border-radius: 20px ;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+
+
+} */
+.form-group {
+  width: 100%;
+  /* margin-top: 20px; */
+  font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  font-size: 15px;
+  border: 1px solid rgba(128, 128, 128, 0.199);
+  font-family: Arial;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 34px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+  font-family: 'Bangers',cursive;
+  color: #fee0ff !important;
+  box-shadow: 1px 1px 15px #fee0ff;
+}
+
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  /* padding: 10px; */
+  margin: 0 auto;
+  border-radius: 8px;
+}
+#status.success {
+  background-color: green;
+  color: white;
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: red;
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}

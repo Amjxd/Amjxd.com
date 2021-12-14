@@ -1,0 +1,211 @@
+/* ############# START APPLY TO ALL CSS ################# */
+body {
+  background-image: url("background.png");
+  margin-top: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  font-family: fantasy;
+
+  
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  text-shadow: 1px 1px 15px black;
+  color:white;
+}
+h3 {
+  font-family: 'Bangers', cursive;
+  color:white;
+}
+h2 {
+  font-family: 'Bangers', cursive;
+}
+
+h6{
+  font-family: 'Bangers', cursive;  
+}
+
+footer{
+  color: gray;
+}
+
+.jumbotron{
+  color: #fee0ff;
+  background: #858b97;
+  background: rgba(255, 255, 255, 0.3); 
+    width:60%;
+  margin: auto;
+  border-radius: 20px ;
+  box-shadow: 1px 1px 12px 10px black;
+
+}
+
+/* ############# END APPLY TO ALL CSS################# */
+
+/* ############ Start Nav ###############  */
+.header_area{
+  padding-right: 20px;
+  padding-left: 120px;
+  padding-bottom: 30px;
+  text-align: right;
+  list-style-type: none;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 17px;
+  color: #fee0ff;
+  padding: 5px 24px;
+  text-shadow: 2px 1px 15px white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  
+  color: white;
+  text-shadow: 1px 1px 20px black !important;
+  box-shadow: 1px 1px 12px 10px black;
+}
+#my_pic2:hover{
+  box-shadow: 1px 1px 12px 10px black;
+  
+}
+/*############ End Nav ############### */
+
+/* #############  START WORK EXPERIENCE ################# */
+#jumbotron3{
+  color: white;
+  background: transparent;
+  border-radius: 20px ;
+  text-align: left;
+  margin: auto;
+}
+
+#cgiPic{
+
+
+}
+.cgiPicc{
+  /* padding-left: 400px;
+  padding-right: 10px; */
+  max-width: 100%;
+max-height: 100%;
+display: block; /* remove extra space below image */
+}
+.cgi p{
+text-shadow: 1px 1px 1px red;
+/* width: 95%; */
+}
+.cgi {
+/* text-indent: 15%; */
+text-shadow: 1px 1px 5px red;
+/* width: 95%; */
+}
+
+.govPicc{
+  /* padding-left: 400px; */
+max-width: 100%;
+max-height: 100%;
+
+display: block; /* remove extra space below image */
+
+}
+#govPic{
+
+}
+
+.government{
+
+  text-shadow: 1px 1px 5px black;
+  /* width: 95%; */
+}
+
+.quote{
+  font-family: monospace;
+  color: black !important;
+  
+}
+
+.government p{
+text-shadow: 1px 1px 2px black;
+/* width: 95%; */
+
+}
+
+.tdPicc{
+  /* padding-left: 400px;
+  padding-right: 100px; */
+  max-width: 100%;
+max-height: 100%;
+display: block; /* remove extra space below image */
+}
+#tdPic{
+  border: 3px solid green;
+  box-shadow: 1px 1px 15px green;
+}
+
+.td p{
+  text-shadow: 1px 1px 1px green;
+  /* width: 95%; */
+
+}
+.td{
+  text-shadow: 1px 1px 5px green;
+  /* width: 95%; */
+}
+
+/* #############  START WORK EXPERIENCE ################# */
+
+/* BUTTON CSS */
+button {
+  font-family: 'Bangers',cursive;
+  color: #fee0ff !important;
+  box-shadow: 1px 1px 15px #fee0ff;
+  
+}
+
+.btn{
+  font-size: 20px;
+}
+
+button:hover{
+
+  background-color: black !important;
+
+  box-shadow: 1px 1px 12px 6px white;
+}
+  /* BUTTON CSS */
+
+  blockquote {
+
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+
+  }
+  blockquote:before {
+    color: black;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+    font-family: fantasy;
+  }
+  blockquote p {
+    display: inline;
+      color: black;
+    text-shadow: 0px 0px 0px green;
+  }

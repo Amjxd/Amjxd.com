@@ -1,0 +1,158 @@
+/* ############# START APPLY TO ALL CSS ################# */
+body {
+  background-image: url("background.png");
+  margin-top: 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+  font-family: fantasy;
+  color: white !important;
+  
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  text-shadow: 1px 1px 15px black;
+  color:white;
+}
+h3 {
+  font-family: 'Bangers', cursive;
+  color:white;
+}
+h2 {
+  font-family: 'Bangers', cursive;
+}
+
+h6{
+  font-family: 'Bangers', cursive;  
+}
+
+footer{
+  color: gray;
+}
+
+.jumbotron{
+  color: #fee0ff;
+  background: #858b97;
+  background: rgba(133, 139, 151, 0.64); 
+    width:70%;
+  margin: auto;
+  border-radius: 20px ;
+
+}
+
+/* ############# END APPLY TO ALL CSS################# */
+
+/* ############ Start Nav ###############  */
+.header_area{
+  padding-right: 40px;
+  padding-left: 140px;
+  padding-bottom: 20px;
+  text-align: right;
+  list-style-type: none;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 19px;
+  color: #fee0ff;
+  padding: 5px 24px;
+  text-shadow: 2px 1px 15px white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+  text-shadow: 1px 1px 20px black !important;
+  box-shadow: 1px 1px 12px 10px black;
+}
+#my_pic2:hover{
+  box-shadow: 1px 1px 12px 10px black;
+  
+}
+/*############ End Nav ############### */
+
+/* START BUTTON CSS */
+button {
+  font-family: 'Bangers',cursive;
+  color: #fee0ff !important;
+  box-shadow: 1px 1px 15px #fee0ff;
+  
+}
+
+.btn{
+  font-size: 20px;
+}
+
+button:hover{
+
+  background-color: black !important;
+
+  box-shadow: 1px 1px 12px 6px white;
+}
+  /* END BUTTON CSS */
+  
+
+/* ############ Start Links @ HOME ############### */
+.column { /* Three image containers (use 25% for four, and 50% for two, etc) */
+  float: left;
+  width: 25%;
+  padding-left:2rem;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.socials{
+border: 1px solid #BFBFBF;;
+}
+
+.socials:hover{
+  background-color: white;
+  box-shadow: 10px 10px 60px 15px white;
+  text-shadow: 2px 2px 8px black !important;
+}
+/* ############ End Links @HOME ############### */
+
+/* ############# START INDEX################# */
+#hrHome{
+  border: none;
+  height: 1px;
+  width: 90%;
+  background-color:  #fee0ff; /* Modern Browsers */
+}
+
+.intro{
+    text-shadow: 5px 5px 2px #110022;
+    color: white;
+}
+
+
+#my_pic{
+  border: 2px solid white;
+  box-shadow: 1px 1px 40px #fee0ff;
+}
+
+
+
+/* ############# END INDEX################# */
+
+
+
+
+
+
+
+
