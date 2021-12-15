@@ -65,7 +65,7 @@
         
         <!-- Takes to Contact.html -->
         
-        <a href="contact.html"><button  type="button" class="btn bg-transparent btn-outline-dark" >Contact Me</button></a> 
+        <a href="contact.php"><button  type="button" class="btn bg-transparent btn-outline-dark" >Contact Me</button></a> 
         
         &nbsp;&nbsp;&nbsp;
 
