@@ -31,7 +31,7 @@
     <div class="header_area">
       <nav id 'nav' class="navbar navbar-expand-lg navbar-light ">
         <div id="my_pic2">
-          <a class="navbar-brand"  href="index.php"><img src = "logo.png" width = 150 height = 50></a>
+          <a  class="navbar-brand"  href="index.html"><img alt = "My Logo" src = "logo.png" width = 150 height = 50></a>
         </div>
         
         <button id = 'toggler'class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,15 +40,16 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="mr-auto"></div>
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="education.php">Education</a>
-              <a class="nav-item nav-link" href="workExperience.php">Work Experience</a>
-              <a class="nav-item nav-link" href="contact.php">Contact</a>
+              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="education.html">Education</a>
+              <a class="nav-item nav-link" href="workExperience.html">Work Experience</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
     </div>
     <!-- ####################### END HEADER AREA ########################## -->
+    
     
     <!-- ####################### START FORMS JUMBOTRON ########################## -->
     <section>
@@ -79,17 +80,13 @@
           <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
         </div>
         <div id="status"></div>
-
+        
         <button class="btn bg-info btn-outline-dark btn-lg" type="submit">Submit</button>
       </form>
         <br>
     </div>
   </div>
-    
   </section>
-  
-
-
     <!-- ####################### END FORMS JUMBOTRON ########################## -->
 
     
