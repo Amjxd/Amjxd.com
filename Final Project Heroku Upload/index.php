@@ -30,7 +30,7 @@
     <div class="header_area">
       <nav id 'nav' class="navbar navbar-expand-lg navbar-light ">
         <div id="my_pic2">
-          <a class="navbar-brand"  href="index.php"><img src = "logo.png" width = 150 height = 50></a>
+          <a  class="navbar-brand"  href="index.html"><img alt = "My Logo" src = "logo.png" width = 150 height = 50></a>
         </div>
         
         <button id = 'toggler'class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,10 +39,10 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="mr-auto"></div>
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="education.php">Education</a>
-              <a class="nav-item nav-link" href="workExperience.php">Work Experience</a>
-              <a class="nav-item nav-link" href="contact.php">Contact</a>
+              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="education.html">Education</a>
+              <a class="nav-item nav-link" href="workExperience.html">Work Experience</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
@@ -59,13 +59,13 @@
           <h2 class="display-4">AMJAD ALSABAGH</h2>
           <h6 class="lead">Ryerson New-Grad</h6>
         </div>
-        <img id = 'my_pic' src="old 2.jpg" class="rounded mx-auto d-block" height="300" width = "300">
+        <img alt = "A professional picture of me" id = 'my_pic' src="old 2.jpg" class="rounded mx-auto d-block" height="300" width = "300">
         <br>
 
         
         <!-- Takes to Contact.html -->
         
-        <a href="contact.php"><button  type="button" class="btn bg-transparent btn-outline-dark" >Contact Me</button></a> 
+        <a href="contact.html"><button  type="button" class="btn bg-transparent btn-outline-dark" >Contact Me</button></a> 
         
         &nbsp;&nbsp;&nbsp;
 
@@ -80,7 +80,7 @@
         <div class= "row">
           <div class="column">
             <div class="socials">
-              <a href="https://www.linkedin.com/in/amjad-alsabagh/"><img src="linkedin-brands.svg" width = "80" height = "80" ></a>
+              <a  href="https://www.linkedin.com/in/amjad-alsabagh/"><img alt = "Click here for my LinkedIn" src="linkedin-brands.svg" width = "80" height = "80" ></a>
               <p>LinkedIN</p>
             </div>
           
@@ -88,7 +88,7 @@
 
           <div  class="column">
             <div class = 'socials'>
-              <a href="https://github.com/Amjxd"><img src="github-brands.svg" width = "80" height = "80"></a>
+              <a  href="https://github.com/Amjxd"><img alt = "Click here for my GitHub" src="github-brands.svg" width = "80" height = "80"></a>
               <p>GitHub</p>
             </div>
             
@@ -96,7 +96,7 @@
           
           <div class="column">
             <div class="socials">
-              <a href="https://stackoverflow.com/users/17383234/amjxd"><img src="stack-overflow-brands.svg" width = "80" height = "80"></a>
+              <a  href="https://stackoverflow.com/users/17383234/amjxd"><img alt = "Click here for my StackOverflow" src="stack-overflow-brands.svg" width = "80" height = "80"></a>
               <p>Stack Overflow</p>
             </div>
           
@@ -104,7 +104,7 @@
 
           <div class="column">
             <div class="socials">
-              <a href="https://www.hackerrank.com/amjad_alsabagh3"><img src="hackerrank-brands.svg" width = "80" height = "80"></a>
+              <a  href="https://www.hackerrank.com/amjad_alsabagh3"><img alt = "Click here for my HackerRank" src="hackerrank-brands.svg" width = "80" height = "80"></a>
               <p>HackerRank</p>
             </div>
           </div>
@@ -114,10 +114,10 @@
     <!-- ####################### END INTRO JUMBOTRON ########################## -->
     
     <br><br><br>
-  
-  
   <footer> <small>&copy;2021 Amjad Alsabagh</small> </footer> 
   <br>
+  
+
     
 
 
