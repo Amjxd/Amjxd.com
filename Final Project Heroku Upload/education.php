@@ -17,7 +17,6 @@
 <!-- Linking Custom CSS File -->
 <link rel="stylesheet" href="education.css">
 
-
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 <link href = "https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto+Slab|Roboto:300,400,500,700" rel = "stylesheet" />
@@ -30,7 +29,7 @@
     <div class="header_area">
       <nav id 'nav' class="navbar navbar-expand-lg navbar-light ">
         <div id="my_pic2">
-          <a class="navbar-brand"  href="index.php"><img src = "logo.png" width = 150 height = 50></a>
+          <a  class="navbar-brand"  href="index.php"><img alt = "My Logo" src = "logo.png" width = 150 height = 50></a>
         </div>
         
         <button id = 'toggler'class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -97,7 +96,7 @@
         <li>Dean's List 2020, 2021</li>
       </ul>
       
-      <img src="rye.png" height = 150 width = 150 alt="">
+      <img alt = "A picture of Ryerson's Logo" src="rye.png" height = 150 width = 150 alt="">
     </div>
   </div>
 </div>
@@ -115,14 +114,13 @@
         <li>CCPS409 - Software Engineering</li>
         
       </ul>
-      <img float = "center" src="c-logo.png" height = 150 width = 150 alt="">
+      <img alt = "A picture of the C & C++ Proramming Languages" float = "center" src="c-logo.png" height = 150 width = 150 alt="">
     </div>
+    
+
     
   </div>
 </div>
-
-
-
 
 <div class="right">
   <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
@@ -135,13 +133,14 @@
         
         
       </ul>
-      <img float = "center" src="java.jpg" height = 150 width = 150 alt="">
+      <img alt = "A picture of the Java Proramming Language" float = "center" src="java.jpg" height = 150 width = 150 alt="">
     </div>
   </div>
 </div>
-
       </div>
     </div>
+    
+    
     
     <!-- ####################### END EDUCATION JUMBOTRON ########################## -->
   
