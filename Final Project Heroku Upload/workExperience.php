@@ -30,7 +30,7 @@
     <div class="header_area">
       <nav id 'nav' class="navbar navbar-expand-lg navbar-light ">
         <div id="my_pic2">
-          <a class="navbar-brand"  href="index.php"><img src = "logo.png" width = 150 height = 50></a>
+          <a  class="navbar-brand"  href="index.html"><img alt = "My Logo" src = "logo.png" width = 150 height = 50></a>
         </div>
         
         <button id = 'toggler'class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,15 +39,16 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="mr-auto"></div>
             <div class="navbar-nav">
-              <a class="nav-item nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="education.php">Education</a>
-              <a class="nav-item nav-link" href="workExperience.php">Work Experience</a>
-              <a class="nav-item nav-link" href="contact.php">Contact</a>
+              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="education.html">Education</a>
+              <a class="nav-item nav-link" href="workExperience.html">Work Experience</a>
+              <a class="nav-item nav-link" href="contact.html">Contact</a>
           </div>
         </div>
       </nav>
     </div>
     <!-- ####################### END HEADER AREA ########################## -->
+    
 
   <!-- ####################### START WORK EXPERIENCE JUMBOTRON ########################## -->
     <div class="container">
@@ -58,7 +59,7 @@
         
           <div class="td">
             <div class="tdPicc">
-              <img id = "tdPic"style="float:right"; src="td.png" width = "110" height = "110">
+              <img alt = "TD logo" id = "tdPic"style="float:right"; src="td.png" width = "110" height = "110">
             </div>
             
             <u><h3>Insider Risk Analyst - TD Canada Trust</h3></u>
@@ -76,7 +77,7 @@
           
           <div class="government">
             <div class="govPicc">
-              <img id = "govPic" style="float:right" src="gov.png" width = "150" height = "40">
+              <img alt = "Gov. logo" id = "govPic" style="float:right" src="gov.png" width = "150" height = "40">
             </div>
             
             <u><h3>Business Analyst - Ontario Government</h3></u>
@@ -85,15 +86,11 @@
             <blockquote class = "quote" cite="http://">
               <p>"Amjad was able to stay on task for multiple work streams and deliver on target dates." - Gov. Manager</p>
             </blockquote>
-          
-            
-<hr>
-
+            <hr>
           </div>
-        
         <div class="cgi">
           <div class="cgiPicc">
-            <img id = "cgiPic"style="float:right"; src="GIB.png" width = "110" height = "110">
+            <img alt = "CGI logo" id = "cgiPic"style="float:right"; src="GIB.png" width = "110" height = "110">
           </div>
           
           <u><h3>Project Control Officer (PCO) - CGI</h3></u>
@@ -103,7 +100,7 @@
             <p>"Amjad demonstrated he can be relied on in any situation. He asks for more responsiblity and he delivers." - CGI Director</p>
           </blockquote>
         </div>
-<hr>
+        <hr>
         </div>
 
         <!-- Downloads Resume -->
