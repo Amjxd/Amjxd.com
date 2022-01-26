@@ -71,7 +71,7 @@
 
         
       <!-- Downloads Resume -->
-        <button  type="submit"onclick="window.open('Amjad_Alsabagh_Resume.docx')" class="btn bg-transparent btn-outline-dark">Download CV</button>
+        <button  type="submit"onclick="window.open('Amjad_Alsabagh2022.docx')" class="btn bg-transparent btn-outline-dark">Download CV</button>
         <br><br>
         
         <!-- LINKS -->
